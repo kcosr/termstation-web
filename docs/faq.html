@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FAQ - TermStation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <span class="brand">TermStation</span>
+        <nav class="primary-nav" aria-label="Primary">
+          <a href="index.html#overview-anchor">Overview</a>
+          <a href="faq.html" aria-current="page">FAQ</a>
+        </nav>
+      </div>
+    </header>
+    <main class="faq-container" aria-live="polite">
+      <div class="faq-header">
+        <h1 class="faq-title">Frequently Asked Questions</h1>
+        <p class="faq-subtitle">Find answers to common questions</p>
+      </div>
+      <div id="faq-list" class="faq-list"></div>
+    </main>
+    <footer class="site-footer">
+      <p>&copy; <span id="footer-year"></span> TermStation</p>
+      <a href="https://x.com/kcosr" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Follow @kcosr on X">
+        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor">
+          <title>X</title>
+          <path d="M14.234 10.162 22.977 0h-2.072l-7.591 8.824L7.251 0H.258l9.168 13.343L.258 24H2.33l8.016-9.318L16.749 24h6.993zm-2.837 3.299-.929-1.329L3.076 1.56h3.182l5.965 8.532.929 1.329 7.754 11.09h-3.182z"/>
+        </svg>
+        <span class="social-username">@kcosr</span>
+      </a>
+    </footer>
+    <script src="faq-data.js"></script>
+    <script src="faq-app.js"></script>
+  </body>
+</html>
